@@ -1,0 +1,35 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  > section {
+    background: #99d6d1;
+    color: #217a73;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > hr {
+      height: 25px;
+      width: 100%;
+
+      margin: 0;
+
+      background: #e8c595;
+      border: 0;
+      border-bottom: 5px solid #d0a872;  
+    }
+
+    > h2 {
+      font-size: 4rem;
+      font-weight: 200;
+      margin: 50px 0 50px;
+
+      > span {
+        color: #2ea79e;
+      }
+    }
+  }
+}
